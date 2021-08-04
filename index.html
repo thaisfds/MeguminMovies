@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <!--Required metn tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Megumin Movies</title>
+
+    <!--Bootstrap css-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styleportaldefilmesAPI.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <img src="anime1.png" class="navLogo">
+                <a class="navbar-brand h1 mb-0" href="index.html">Megumin Movies</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSite">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#lan">Lançamentos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#des">Em Destaque</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#ua">Avaliações</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#em">Entrevistas & Markingof</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#nov">Novidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pesquisa.html">Pesquisar Filme</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop">Social</a>
+                            <div class="dropdown-menu">
+                                <a target="_blank" class="dropdown-item"
+                                    href="https://www.facebook.com/thais.ferreira.7965692">Facebook</a>
+                                <a target="_blank" class="dropdown-item"
+                                    href="https://www.instagram.com/thais_ferreira_ds/">Instagram</a>
+                                <a target="_blank" class="dropdown-item"
+                                    href="https://twitter.com/arquira2000">Twitter</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <main class="container main">
+
+        <section id="fp" class="row area filmes-populares">
+            <div class="col-12">
+                <h1>Top 3 Filmes Populares</h1>
+            </div>
+            <div class="row" id="movies-popular"></div>
+        </section>
+
+        <section id="lan" class="row area lancamento">
+            <div class="col-12">
+                <h1>Lançamentos</h1>
+            </div>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row blocolancamento">
+                            <div class="col-12">
+                                <iframe class="videolancamento"
+                                    src="https://www.youtube.com/embed/ATJYac_dORw" title="YouTube video player"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                                <iframe class="videolancamentom" src="https://www.youtube.com/embed/ATJYac_dORw"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <div class="col-12">
+                                <h4>Demon Slayer - Kimetsu no Yaiba - The Movie: Mugen Train</h4>
+                                <p><b>Sinopse:</b> Kimetsu no Yaiba: Mugen Ressha-hen É um filme de anime japonês de
+                                    2020 baseado na série de manga Shonen Kimetsu no Yaiba. O filme, que é uma sequência
+                                    direta da série de anime 2019, é dirigido por Haruo Sotozaki e produzido pela
+                                    Ufotable.</p>
+                                <p><b>Diretor:</b> Haruo Sotozaki <b>Roteiro:</b> Ufotable <b>Estreia:</b> 2021</p>
+                                <p><b>Elenco:</b> Akari Kitō | Natsuki Hanae | Yoshitsugu Matsuoka | Bryce Papenbrook
+                                </p>
+                                <p><b>Avaliação:</b> <i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                        class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row blocolancamento">
+                            <div class="col-12">
+                                <iframe class="videolancamento"
+                                    src="https://www.youtube.com/embed/WN7OOohsXD8" title="YouTube video player"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                                <iframe class="videolancamentom" src="https://www.youtube.com/embed/WN7OOohsXD8"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <div class="col-12">
+                                <h4>My Hero Academia Movie 3: World Heroes' Mission</h4>
+                                <p><b>Sinopse:</b> My Hero Academia: World Heroes Mission é uma história original que se
+                                    passa durante o inverno do arco Hero Internship. Há um grupo misterioso que está
+                                    determinado a eliminar todos aqueles com individualidades. Então, para salvar a
+                                    todos, os Pro-Heroes precisam formar uma equipe mundial de heróis. É nesse momento
+                                    que Deku, Bakugo, Todoroki e outros estudantes da U.A. Academy são chamados para
+                                    combater essa ameaça. Será que eles vão conseguir salvar o mundo a tempo, antes da
+                                    humanidade ser varrida da Terra?</p>
+                                <p><b>Diretor:</b> Kenji Nagasaki <b>Roteiro:</b> Yōsuke Kuroda <b>Estreia:</b> 2021</p>
+                                <p><b>Elenco:</b> Daiki Yamashita | Kenta Miyake | Christopher Sabat | Nobuhiko Okamoto
+                                </p>
+                                <p><b>Avaliação:</b> <i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                        class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row blocolancamento">
+                            <div class="col-12">
+                                <iframe class="videolancamento"
+                                    src="https://www.youtube.com/embed/IkcAhZlmE7w" title="YouTube video player"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                                <iframe class="videolancamentom" src="https://www.youtube.com/embed/IkcAhZlmE7w"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <div class="col-12">
+                                <h4>YURI!!! on ICE the movie : ICE ADOLESCENCE</h4>
+                                <p><b>Sinopse:</b> A série centra-se na relação entre o patinador artístico japonês Yuri
+                                    Katsuki e seu herói Victor Nikiforov, o campeão russo da patinagem artística no gelo
+                                    que torna-se o treinador de Yuri e o jovem patinador prodígio russo Yuri Plisetsky,
+                                    que torna-se o rival de Yuri Katsuki.</p>
+                                <p><b>Diretora:</b> Sayo Yamamoto <b>Roteiro:</b> Mitsurou Kubo <b>Estreia:</b>2021</p>
+                                <p><b>Elenco:</b> Toshiyuki Toyonaga | Yoshimasa Hosoya | Junichi Suwabe</p>
+                                <p><b>Avaliação:</b> <i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                                        class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </section>
+
+        <section id="des" class="row area destaque">
+            <div class="col-12 col-sm-6">
+                <h1>Em Destaque</h1>
+            </div>
+            <div class="col-12 col-sm-6 dropdown">
+                <button type="button" class="btn btn-secondary dropdown-toggle desdrop" data-toggle="dropdown">
+                    CATEGORIAS:
+                </button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Todas</a>
+                    <a class="dropdown-item" href="#">Ação e aventura</a>
+                    <a class="dropdown-item" href="#">Drama</a>
+                    <a class="dropdown-item" href="#">Comédia romântica</a>
+                    <a class="dropdown-item" href="#">Ficção cienífica</a>
+                    <a class="dropdown-item" href="#">Terror</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                    <a href="https://www.netflix.com/br/title/80161371"><img src="CoverYourName.jpg"
+                            class="imgdestaque"></a>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                    <a href="https://www.netflix.com/br/title/80223226"><img src="CoverASilentVoice.jpg"
+                            class="imgdestaque"></a>
+                </div>
+
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                    <a href="https://www.netflix.com/br/title/80182123"><img src="CoverVioletEvergarden.png"
+                            class="imgdestaque"></a>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                    <a href="https://animesonline.vip/given-movie/"><img src="CoverGiven.jpg" class="imgdestaque"></a>
+                </div>
+            </div>
+            <div class="col-12">
+                <button type="button" class="btn btn-dark">Mais Filmes</button>
+            </div>
+        </section>
+
+        <section id="ua" class="row area ultimasavaliacoes">
+            <div class="col-12">
+                <h1>Últimas Avaliações</h1>
+            </div>
+            <div class="col-12 col-sm-3 col-md-3 col-lg-2 av">
+                <img src="avaliador1.jpg" class="rounded-circle imgua" alt="Cinque Terre">
+            </div>
+            <div class="col-12 col-sm-9 col-md-9 col-lg-10 av">
+                <h5>Fuminobu Hata</h5>
+                <p>Dragon Ball Super: Broly delivers in terms of awesome action, but more than that, it uses the fathers
+                    of Goku, Vegeta, and Broly to link back to the late-1980s and early-1990s heyday of the series to
+                    add a relatable and thoughtful subtext. It’s a humorous movie that bounds into the world of
+                    imagination and is gripping to the end.</p>
+                <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                        class="fa fa-star"></i> 15/01/2019</p>
+            </div>
+            <div class="col-12 col-sm-3 col-md-3 col-lg-2 av">
+                <img src="avaliador2.jpg" class="rounded-circle imgua" alt="Cinque Terre">
+            </div>
+            <div class="col-12 col-sm-9 col-md-9 col-lg-10 av">
+                <h5>Zach Budgor</h5>
+                <p>Wingard’s Death Note moves like a bullet and doles out practical gore and overheated melodrama in
+                    equal measure.</p>
+                <p><i class="fa fa-star"></i><i class="fa fa-star"></i> 31/08/2017</p>
+            </div>
+            <div class="col-12 col-sm-3 col-md-3 col-lg-2 av">
+                <img src="avaliador3.png" class="rounded-circle imgua" alt="Cinque Terre">
+            </div>
+            <div class="col-12 col-sm-9 col-md-9 col-lg-10 av">
+                <h5>Carlos Aguilar</h5>
+                <p>Think of Promare as a vast feast with too many flavorful offerings to taste in one seating, and where
+                    all the intricate details of how everything was put where it is are less important than the overall
+                    sensory overload you’ll experience.</p>
+                <p><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+                        class="fa fa-star"></i><i class="fa fa-star"></i> 10/07/2019</p>
+            </div>
+            <div class="col-12">
+                <button type="button" class="btn btn-dark">Mais Avaliações</button>
+            </div>
+        </section>
+
+        <section id="em" class="row area entrevistas">
+            <div class="col-12">
+                <h1>Entrevistas & Making of</h1>
+            </div>
+            <div class="row divVideosEntrevista">
+                <div class="col-12 col-lg-4 emvideo">
+                    <iframe class="videoentrevista"
+                        src="https://www.youtube.com/embed/b3qt_XjT-Wo" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <h5><b>Filme:</b> A Voz do Silêncio</h5>
+                    <p><b>Diretora:</b> Naoko Yamada</p>
+                    <p><b>Roteiro:</b> Reiko Yoshida</p>
+                    <p><b>Estreia:</b> 2016</p>
+                </div>
+
+                <div class="col-12 col-lg-4 emvideo">
+                    <iframe class="videoentrevista"
+                        src="https://www.youtube.com/embed/ZJ7ymWBf7XE" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <h5><b>Filme:</b> A Viagem de Chihiro</h5>
+                    <p><b>Diretor:</b> Hayao Miyazaki</p>
+                    <p><b>Roteiro:</b> Hayao Miyazaki</p>
+                    <p><b>Estreia:</b> 2001</p>
+                </div>
+
+                <div class="col-12 col-lg-4 emvideo">
+                    <iframe class="videoentrevista"
+                        src="https://www.youtube.com/embed/0HEvyxNJRks" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <h5><b>Filme:</b> Aquaman</h5>
+                    <p><b>Diretor:</b> James Wan</p>
+                    <p><b>Roteiro:</b> 	David Leslie Johnson</p>
+                    <p><b>Estreia:</b> 2008</p>
+                </div>
+            </div>
+            <div class="col-12">
+                <button type="button" class="btn btn-dark">Mais Filmes</button>
+            </div>
+        </section>
+
+        <section id="nov" class="row area nse">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-8 col-lg-8">
+                    <div class="col-12 ">
+                        <h1>Novidades</h1>
+                    </div>
+                    <div>
+                        <div class="row novblock">
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                                <img src="noticia1.jpg" class="imgnovidades">
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-8 col-lg-8">
+                                <h5>Uta no☆Prince-sama♪ ganha novos filmes para 2022</h5>
+                                <p>Foi anunciado novos filmes de Uta no☆Prince-sama♪ Maji Love. De acordo com o site
+                                    oficial o primeiro filme chega em 2022. Sendo assim, o primeiro filme chamado de Uta
+                                    no ☆ Prince-sama ♪ Maji Love Starish Tours terá história original centrada na
+                                    unidade idol ST ☆ RISH.</p>
+                                <p><span class="badge badge-dark">Filmes 2021 </span> <span
+                                        class="badge badge-dark">Anime </span> <span class="badge badge-dark">Futuros
+                                        Lançamentos</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="row novblock">
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                                <img src="noticia2.jpg" class="imgnovidades">
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-8 col-lg-8">
+                                <h5>The Quintessential Quintuplets ganha filme</h5>
+                                <p>Foi anunciado o filme The Quintessential Quintuplets (Gotoubun no Hanayome) que será
+                                    uma sequência direta do anime. Conforme o site oficial, o novo filme chega aos
+                                    cinemas do japão no próximo ano.</p>
+                                <p><span class="badge badge-dark">Filmes 2021 </span> <span
+                                        class="badge badge-dark">Anime </span>
+                                    <span class="badge badge-dark">Futuros Lançamentos</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="row novblock">
+                            <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                                <img src="noticia3.jpg" class="imgnovidades">
+                            </div>
+                            <div class="col-12 col-sm-12 col-md-8 col-lg-8">
+                                <h5>Jujutsu Kaisen – Anime pode ganhar o primeiro filme</h5>
+                                <p>O filme de Jujutsu Kaisen pode está com seus dias contatos para seu anúncio nos
+                                    cinemas. A informação vazou por conta de um registro de domínio
+                                    jujutsukaisen-movie.jp tendo o mesmo código postal e endereço do site oficial do
+                                    anime.</p>
+                                <p><span class="badge badge-dark">Filmes 2021 </span> <span
+                                        class="badge badge-dark">Anime </span> <span class="badge badge-dark">Futuros
+                                        Lançamentos</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 sobreeditorial">
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                        <h1>Sobre</h1>
+                    </div>
+                    <p>Este é um site desenvolvido para a aula de Desenvolvimento de Interfaces Web (Trabalho Prático -
+                        Desenvolvimento Portal de Filmes) pela aluna Thaís Ferreira da Silva. Esse portal é voltado para a divulgação de conteúdos
+                        relacionados a diversos filmes.</p>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4">
+                        <h1>Editorial</h1>
+                    </div>
+                    <p><i class="fa fa-user" style="font-size:200%"></i> <b>Redação:</b> George Taylor</p>
+                    <p><i class="fa fa-user" style="font-size:200%"></i> <b>Pesquisa:</b> Jon Mack Jon</p>
+                    <p><i class="fa fa-user" style="font-size:200%"></i> <b>Gerente Geral:</b> Thaís Ferreira</p>
+                    <p><b>Redes Sociais:</b></p>
+                    <a target="_blank" href="https://www.facebook.com/thais.ferreira.7965692"><i class="fa fa-facebook"
+                            style="font-size:300%"></i></a>
+                    <a target="_blank" href="https://twitter.com/arquira2000"><i class="fa fa-twitter"
+                            style="font-size:300%"></i></a>
+                    <a target="_blank" href="https://www.instagram.com/thais_ferreira_ds/"><i class="fa fa-instagram"
+                            style="font-size:300%"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="container footer">
+        <p><img src="anime1.png" class="navLogo"><b>Copyright 2020 - Disciplina de Desenvolvimento de Interfaces Web - ICEI PUC Minas</b></p>
+
+    </footer>
+    <script src="filmespopulares.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
